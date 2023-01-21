@@ -104,3 +104,6 @@ for (let i = 0; i < finances.length; i++) {
     }
 }
 
+console.log(`Total Months : ${finances.length}`);
+console.log(`Total: $${total}`);
+console.log(`Average Change: $${(changeTotal / finances.length)}`);
