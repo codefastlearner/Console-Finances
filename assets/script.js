@@ -107,3 +107,5 @@ for (let i = 0; i < finances.length; i++) {
 console.log(`Total Months : ${finances.length}`);
 console.log(`Total: $${total}`);
 console.log(`Average Change: $${(changeTotal / finances.length)}`);
+console.log(`Greatest increase in Profits: ${largestIncrease[0]} ($${largestIncrease[1]})`);
+console.log(`Greatest decrease in Profits: ${largestDecrease[0]} ($${largestDecrease[1]})`);
